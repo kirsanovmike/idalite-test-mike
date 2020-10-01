@@ -19,12 +19,6 @@ export default {
     Catalog,
     Basket,
   },
-  methods: {
-  },
-  created() {
-    // console.log(this.$router)
-    // this.$router.replace("products/?id=1");
-  },
 };
 </script>
 

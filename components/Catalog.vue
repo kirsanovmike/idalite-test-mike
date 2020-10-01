@@ -32,7 +32,6 @@ export default {
         this.productCategory = resp.data;
       })
       .catch((err) => {
-        // console.log(err);
         aleert("Ошибка: ", err)
       });
   },

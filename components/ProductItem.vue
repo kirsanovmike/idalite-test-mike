@@ -31,11 +31,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      // basket: [],
-    };
-  },
   props: {
     product: {
       type: Object,
@@ -76,17 +71,10 @@ export default {
       this.$store.commit("basket/add", product);
     },
   },
-  // mounted() {
-  //   this.basket = this.$store.state.basket.basket;
-  // },
 };
 </script>
 
 <style scoped>
-.product__container {
-  /* background-color: rgb(80, 62, 39); */
-}
-
 .top__of__card {
   display: flex;
   align-items: flex-start;

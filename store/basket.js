@@ -9,7 +9,6 @@ export const mutations = {
   },
   add(state, payload) {
     state.basket.push(payload);
-    // state.productIdInBasket.add(payload.id)
   },
 
   delete(state, payload) {

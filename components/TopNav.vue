@@ -40,7 +40,6 @@ export default {
 .wrapper {
   max-width: 1264px;
   margin: 0 auto;
-  /* background-color: aqua; */
 }
 .header {
   width: 100%;

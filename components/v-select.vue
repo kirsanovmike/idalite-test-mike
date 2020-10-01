@@ -62,7 +62,6 @@ export default {
 }
 .titile {
   cursor: pointer;
-
 }
 .titile::after {
   content: url("../style/img/svg/Strelka.svg");

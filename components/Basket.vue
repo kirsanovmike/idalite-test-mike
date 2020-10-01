@@ -142,7 +142,6 @@ export default {
   height: 100%;
   position: fixed;
   overflow-y: scroll;
-  /* overflow: hidden; */
 }
 .basket__field::-webkit-scrollbar {
   width: 8px;
@@ -184,7 +183,6 @@ export default {
   margin-bottom: 105px;
 }
 .btn__base:hover {
-  /* color: #dadada; */
   background-color: #59606d;
 }
 .basket__head {

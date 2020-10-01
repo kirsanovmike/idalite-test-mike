@@ -56,6 +56,9 @@ export default {
       .get("/product", { params: { category: this.$route.params.category } })
       .then((resp) => {
         this.productList = resp.data;
+      })
+      .catch((err) => {
+        aleert("Ошибка: ", err)
       });
   },
 };
