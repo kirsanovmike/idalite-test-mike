@@ -34,7 +34,6 @@ export default {
   data() {
     return {
       basket: [],
-      // isInBasket: false
     };
   },
   props: {
@@ -48,7 +47,7 @@ export default {
   },
   computed: {
     isInBasket() {
-      if (this.basket.map((el) => el.id).indexOf(this.product.id) == -1)
+      if (this.$store.state.basket.basket.map((el) => el.id).indexOf(this.product.id) == -1)
         return false;
       return true;
     },
