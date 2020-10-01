@@ -33,7 +33,7 @@
 export default {
   data() {
     return {
-      basket: [],
+      // basket: [],
     };
   },
   props: {
@@ -76,9 +76,9 @@ export default {
       this.$store.commit("basket/add", product);
     },
   },
-  mounted() {
-    this.basket = this.$store.state.basket.basket;
-  },
+  // mounted() {
+  //   this.basket = this.$store.state.basket.basket;
+  // },
 };
 </script>
 
