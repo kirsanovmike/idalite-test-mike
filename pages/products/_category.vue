@@ -1,6 +1,6 @@
 <template>
 <div class="flex__select__wrapper">
-    <v-select 
+    <VSelect 
       class="v__select"
       :options="options"
       :selected="selectedOption"
@@ -20,9 +20,6 @@
 </template>
 
 <script>
-import ProductItem from "../../components/ProductItem";
-import VSelect from "../../components/v-select"
-
 export default {
   name: "ProductList",
   data: () => ({
@@ -41,10 +38,6 @@ export default {
           return this.productList.sort((a, b) => b.rating - a.rating);
       }
     },
-  },
-  components: {
-    ProductItem,
-    VSelect
   },
   methods: {
     currentOption(option) {

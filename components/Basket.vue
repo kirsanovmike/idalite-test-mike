@@ -92,7 +92,6 @@
 </template>
 <script>
 import Vue from "vue";
-import BasketItem from "./BasketItem";
 import VueMask from "v-mask";
 
 Vue.use(VueMask);

@@ -10,16 +10,7 @@
 </template>
 
 <script>
-import TopNav from "@/components/TopNav";
-import Catalog from "@/components/Catalog";
-import Basket from "@/components/Basket";
-export default {
-  components: {
-    TopNav,
-    Catalog,
-    Basket,
-  },
-};
+export default {};
 </script>
 
 <style>
